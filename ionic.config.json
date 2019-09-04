@@ -1,5 +1,7 @@
 {
   "name": "varu-1.0",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
