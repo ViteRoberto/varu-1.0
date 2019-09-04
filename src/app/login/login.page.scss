@@ -1,0 +1,11 @@
+ion-content{
+    --background: #fff url("/assets/img/initbackground.jpg") no-repeat center center / cover;
+    --keyboard-offset: 100%;
+}
+
+
+.input-login{
+    background-color: rgba($color: #FFFFFF, $alpha: 0.8);
+    color: #000000;
+    font-size: large;
+}
