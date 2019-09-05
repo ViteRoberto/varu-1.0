@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
+  
   {
     path: '',
     redirectTo: 'login',
@@ -19,8 +20,13 @@ const routes: Routes = [
     path: 'lector',
     loadChildren: () => import('./lector/lector.module').then(m => m.LectorPageModule)
   },
-  { path: 'login', 
+  {
+    path: 'login', 
     loadChildren: () => import('./login/login.module').then(m => m.LoginPageModule)
+  },
+  {
+    path: 'registroEvento',
+    loadChildren: () => import('./evento/registro/registro.module').then(m => m.RegistroPageModule)
   }
 
 ];

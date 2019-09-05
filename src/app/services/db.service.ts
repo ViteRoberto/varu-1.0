@@ -30,6 +30,10 @@ export class DbService {
   }
 
   getEvento(id:string){
-    this.eventosColeccion.doc<EventoI>(id).valueChanges();
+    return this.eventosColeccion.doc<EventoI>(id).valueChanges();
+  }
+
+  addEvento(evento: EventoI){
+    this.eventosColeccion.add(evento);
   }
 }

@@ -1,1 +1,25 @@
+ion-col.sinEspacio{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
 
+ion-item{
+    --padding-start: 0px;
+    --inner-padding-end: 0px;
+}
+img.imagenEvento{
+    clip-path: inset(25% 0px 25% 0px);
+    margin-bottom: -18%;
+    margin-top: -18%;
+
+}
+
+img.logo{
+    height: 2em;
+}
+
+ion-grid{
+    position: relative;
+}
